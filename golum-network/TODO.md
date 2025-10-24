@@ -1,0 +1,5 @@
+- [ ] Fund provider wallet `0xf2f02839d70e54f546ce1a91ef55259d6d215abb` with GLM (earnings) and a small amount of ETH/MATIC on Polygon for gas. Transfers should target the Polygon network.
+- [ ] Back up the Yagna keystore (`/root/.local/share/yagna/keystore`) to a secure, offline location so the wallet can be restored if this machine fails.
+- [ ] Configure router/firewall to forward TCP port 7465 (and allow outbound UDP 11500) to this host so requestors can reach the node reliably.
+- [ ] Decide whether to share usage metrics: run `yagna consent allow stats` if you want to appear on stats.golem.network; otherwise expect recurring log warnings.
+- [ ] Consider fine-tuning pricing after observing demand (edit `/root/.local/share/ya-provider/presets.json` or use `golemsp settings set`).
