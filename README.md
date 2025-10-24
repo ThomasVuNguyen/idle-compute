@@ -12,3 +12,5 @@ Rank: D
 Distributed compute -> make money
 Caviat: You gotta pay to start, here we just kinda run a testnet (no upfront, no payout)
 Rank: D
+
+# XMR Mining

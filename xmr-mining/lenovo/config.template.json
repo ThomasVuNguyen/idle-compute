@@ -1,0 +1,20 @@
+{
+  "autosave": true,
+  "cpu": {
+    "enabled": true
+  },
+  "donate-level": 0,
+  "donate-over-proxy": 0,
+  "pools": [
+    {
+      "algo": null,
+      "coin": "XMR",
+      "url": "pool.supportxmr.com:443",
+      "user": "REPLACE_WITH_YOUR_MONERO_WALLET",
+      "pass": "x",
+      "rig-id": "lenovo-idle",
+      "tls": true
+    }
+  ],
+  "watch": true
+}
