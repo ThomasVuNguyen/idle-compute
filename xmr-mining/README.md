@@ -17,15 +17,15 @@ sudo apt-get install -y git cmake build-essential libssl-dev libuv1-dev libhwloc
 ## Setup
 1. Clone the project and enter it:
    ```bash
-   git clone https://github.com/your-user/xmr-mining-lenovo.git
-   cd xmr-mining-lenovo
+   git clone https://github.com/ThomasVuNguyen/idle-compute
+   cd idle-compute/xmr-mining/lenovo
    ```
 
 2. Fetch XMRig sources:
    ```bash
-   git submodule update --init --recursive
+   git clone https://github.com/xmrig/xmrig.git
    ```
-   (If you are not using Git submodules, you can instead run `git clone https://github.com/xmrig/xmrig.git` manually inside this folder.)
+
 
 3. Build XMRig with the helper script:
    ```bash
@@ -56,6 +56,7 @@ sudo apt-get install -y git cmake build-essential libssl-dev libuv1-dev libhwloc
 
 7. Fire up the miner:
    ```bash
+   sudo chmod +x mine.sh
    ./mine.sh
    ```
    The script checks that `config.json` is valid and launches XMRig with your settings.
