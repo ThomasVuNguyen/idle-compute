@@ -14,3 +14,4 @@ Caviat: You gotta pay to start, here we just kinda run a testnet (no upfront, no
 Rank: D
 
 # XMR Mining
+[Refer to xmr-mining/README.md](xmr-mining/README.md)
